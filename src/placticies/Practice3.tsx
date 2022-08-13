@@ -1,7 +1,7 @@
 export const Practice3 = () => {
-  const getTotalFee = (num: number) => {
+  const getTotalFee = (num: number): number => {
     const total = num * 1.1;
-    return total.toString();
+    return total;
   };
   const onClickPractice = () => {
     let total: number = 0;
